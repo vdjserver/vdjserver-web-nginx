@@ -13,4 +13,6 @@ RUN mkdir /var/www && mkdir /var/www/node && mkdir /var/www/html
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
 COPY scripts/nginx-config-replace.sh /root/nginx-config-replace.sh
 
+RUN mkdir /var/log/nginx/persistent
+
 CMD ["/root/nginx-config-replace.sh"]
