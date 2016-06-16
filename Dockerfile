@@ -1,5 +1,5 @@
 # Base Image
-FROM nginx:1.9
+FROM nginx:1.10
 
 MAINTAINER Walter Scarborough <wscarbor@tacc.utexas.edu>
 
@@ -10,6 +10,3 @@ RUN mkdir /var/www \
 
 # Configuration
 COPY nginx/nginx.conf /etc/nginx/nginx.conf
-COPY scripts/nginx-config-replace.sh /root/nginx-config-replace.sh
-
-CMD ["/root/nginx-config-replace.sh"]
