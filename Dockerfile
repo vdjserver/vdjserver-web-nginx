@@ -1,5 +1,5 @@
 # Base Image
-FROM nginx:1.10
+FROM nginx:1.10-alpine
 
 MAINTAINER Walter Scarborough <wscarbor@tacc.utexas.edu>
 
