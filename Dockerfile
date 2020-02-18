@@ -1,7 +1,7 @@
 # Base Image
 FROM nginx:1.10-alpine
 
-MAINTAINER Walter Scarborough <wscarbor@tacc.utexas.edu>
+MAINTAINER VDJServer <vdjserver@utsouthwestern.edu>
 
 RUN mkdir /var/www \
     && mkdir /var/www/node \
