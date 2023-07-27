@@ -1,0 +1,13 @@
+Hello,
+
+We are detecting a large number of parallel queries against the VDJServer
+repository for the AIRR Data Commons, which is causing problems for other
+users. Your usage of the API to download large amounts of rearrangement
+data is obsolete. There are now quicker and more robust methods to download
+large amounts of data, either from the VDJServer website or by using
+the async API. Please contact us at vdjserver@utsouthwestern.edu and we
+can help you.
+
+thanks
+VDJServer Team
+vdjserver@utsouthwestern.edu
