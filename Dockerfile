@@ -1,7 +1,7 @@
 # Base Image
 FROM nginx:1.10-alpine
 
-MAINTAINER VDJServer <vdjserver@utsouthwestern.edu>
+LABEL MAINTAINER="VDJServer <vdjserver@utsouthwestern.edu>"
 
 RUN mkdir /var/www \
     && mkdir /var/www/node \
