@@ -1,5 +1,5 @@
 # Base Image
-FROM nginx:1.10-alpine
+FROM nginx:1.30.7-alpine
 
 LABEL MAINTAINER="VDJServer <vdjserver@utsouthwestern.edu>"
 
